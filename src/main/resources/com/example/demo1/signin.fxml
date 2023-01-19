@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="782.0" prefWidth="1113.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+   <children>
+      <Pane prefHeight="782.0" prefWidth="240.0" style="-fx-background-color: CF27F4;">
+         <children>
+            <Label alignment="CENTER" layoutX="20.0" layoutY="369.0" prefHeight="37.0" prefWidth="200.0" text="Book-A-Trip">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="301.0" layoutY="64.0" prefHeight="641.0" prefWidth="742.0" style="-fx-background-color: EFa4ff;">
+         <children>
+            <Label alignment="CENTER" layoutX="297.0" layoutY="14.0" prefHeight="52.0" prefWidth="148.0" style="-fx-background-color: FCF0FF;" text="Inregistrare">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Pane layoutX="13.0" layoutY="82.0" prefHeight="484.0" prefWidth="716.0" style="-fx-background-color: FCF0FF;">
+               <children>
+                  <Label layoutX="58.0" layoutY="103.0" prefHeight="36.0" prefWidth="149.0" text="Username : ">
+                     <font>
+                        <Font size="24.0" />
+                     </font></Label>
+                  <Label layoutX="95.0" layoutY="186.0" prefHeight="36.0" prefWidth="112.0" text="Parola : ">
+                     <font>
+                        <Font size="24.0" />
+                     </font></Label>
+                  <TextField fx:id="newUsername" layoutX="222.0" layoutY="99.0" prefHeight="45.0" prefWidth="402.0">
+                     <font>
+                        <Font size="21.0" />
+                     </font></TextField>
+                  <TextField fx:id="newPass" layoutX="222.0" layoutY="182.0" prefHeight="45.0" prefWidth="402.0">
+                     <font>
+                        <Font size="21.0" />
+                     </font></TextField>
+                  <Button layoutX="280.0" layoutY="401.0" mnemonicParsing="false" onAction="#signin" prefHeight="60.0" prefWidth="157.0" style="-fx-background-color: EFA4FF;" text="Sign In">
+                     <font>
+                        <Font size="25.0" />
+                     </font></Button>
+                  <Label alignment="CENTER" layoutX="45.0" layoutY="276.0" prefHeight="35.0" prefWidth="148.0" text="Confirmare : ">
+                     <font>
+                        <Font size="24.0" />
+                     </font></Label>
+                  <TextField fx:id="confPass" layoutX="222.0" layoutY="271.0" prefHeight="45.0" prefWidth="402.0">
+                     <font>
+                        <Font size="21.0" />
+                     </font></TextField>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

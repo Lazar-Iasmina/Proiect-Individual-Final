@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="818.0" prefWidth="1293.0" style="-fx-background-color: ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.ControllerScena2">
+   <children>
+      <Pane prefHeight="818.0" prefWidth="270.0" style="-fx-background-color: Cf27F4;">
+         <children>
+            <Label layoutX="29.0" layoutY="355.0" prefHeight="54.0" prefWidth="213.0" text="Book-A-Trip">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label alignment="CENTER" layoutX="491.0" layoutY="284.0" prefHeight="49.0" prefWidth="613.0" text="Zborul a fost rezervat cu succes : ">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelZboruriGataRezervate" layoutX="401.0" layoutY="363.0" prefHeight="149.0" prefWidth="816.0" style="-fx-background-color: FCF0FF;">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Button layoutX="610.0" layoutY="539.0" mnemonicParsing="false" onAction="#switchtoScene1" prefHeight="88.0" prefWidth="398.0" style="-fx-background-color: EFA4FF;" text="Inapoi la Pagina Principala">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="1129.0" layoutY="654.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../piyo.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

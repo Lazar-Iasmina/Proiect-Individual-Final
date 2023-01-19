@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="730.0" prefWidth="1042.0" style="-fx-background-color: ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.ControllerScena5">
+   <children>
+      <Pane prefHeight="730.0" prefWidth="231.0" style="-fx-background-color: CF27F4;">
+         <children>
+            <Label layoutX="12.0" layoutY="324.0" prefHeight="50.0" prefWidth="191.0" text="Book-A-Trip">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="262.0" layoutY="49.0" prefHeight="50.0" prefWidth="247.0" text="Zboruri Dus:">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Label fx:id="zboruriDus" layoutX="269.0" layoutY="113.0" prefHeight="447.0" prefWidth="717.0" style="-fx-background-color: FCF0ff;" text=" " />
+      <Label alignment="CENTER_RIGHT" layoutX="292.0" layoutY="611.0" prefHeight="38.0" prefWidth="417.0" text="Doresc sa rezerv zborul cu Id-ul:">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldIdZbor" layoutX="726.0" layoutY="618.0" prefHeight="25.0" prefWidth="191.0" />
+      <Button layoutX="521.0" layoutY="661.0" mnemonicParsing="false" onAction="#getZborDus" prefHeight="38.0" prefWidth="150.0" style="-fx-background-color: EFA4FF;" text="Next">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

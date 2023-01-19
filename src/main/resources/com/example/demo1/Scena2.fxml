@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="766.0" prefWidth="1140.0" style="-fx-background-color: ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+   <children>
+      <TextField fx:id="numeDestinatie" layoutX="601.0" layoutY="186.0" prefHeight="54.0" prefWidth="388.0" />
+      <Label alignment="CENTER" layoutX="318.0" layoutY="186.0" prefHeight="45.0" prefWidth="258.0" text="Aeroport Plecare : " textAlignment="JUSTIFY">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <Button fx:id="butonCautare" layoutX="642.0" layoutY="613.0" mnemonicParsing="false" onAction="#cautare" prefHeight="73.0" prefWidth="156.0" style="-fx-background-color: EFA4FF;" text="Cauta">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+      <Pane prefHeight="766.0" prefWidth="238.0" style="-fx-background-color: CF27F4;">
+         <children>
+            <Label layoutX="33.0" layoutY="310.0" text="Book-A-Trip">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <Button layoutX="33.0" layoutY="402.0" mnemonicParsing="false" onAction="#switchtoScene1" prefHeight="38.0" prefWidth="149.0" style="-fx-background-color: EFA4FF;" text="Pagina Principala" />
+         </children>
+      </Pane>
+      <Label alignment="CENTER" layoutX="328.0" layoutY="295.0" prefHeight="45.0" prefWidth="238.0" text="Aeroport Sosire : ">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="353.0" layoutY="399.0" prefHeight="17.0" prefWidth="228.0" text="Data Plecare : ">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="365.0" layoutY="510.0" prefHeight="46.0" prefWidth="204.0" text="Data Sosire : ">
+         <font>
+            <Font size="31.0" />
+         </font></Label>
+      <TextField fx:id="aeroportSosire" layoutX="604.0" layoutY="295.0" prefHeight="54.0" prefWidth="388.0" />
+      <DatePicker fx:id="dataPlecare" layoutX="604.0" layoutY="399.0" prefHeight="46.0" prefWidth="388.0" />
+      <DatePicker fx:id="dataSosire" layoutX="604.0" layoutY="510.0" prefHeight="46.0" prefWidth="388.0" />
+   </children>
+</AnchorPane>
